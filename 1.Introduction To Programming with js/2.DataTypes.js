@@ -57,3 +57,7 @@ let obj1 = { x: 1 };
 let obj2 = obj1;        // ← Pass by reference (objects)
 obj1.x = 2;
 console.log(obj2.x);    // ← 2 (both point to same object!)
+
+
+// special characters in js
+
