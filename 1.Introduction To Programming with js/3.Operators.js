@@ -84,3 +84,6 @@ console.log(newArr);                    // ← [0, 1, 2, 3, 4, 5, 6]
 let obj = { name: "Bob", age: 30 };
 let { name, ...otherProps } = obj;      // ← Object destructuring
 let newObj = { ...obj, city: "NYC" };   // ← Object spread
+
+
+
