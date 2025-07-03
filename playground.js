@@ -110,4 +110,73 @@ function greaternum(){
         }
     }
 }
-greaternum();
+
+function triangle(){
+    let a = 10;
+    let b = 12;
+    let c= 14;
+
+    if(a+b>c && a+c>b && b+c>c){
+        console.log("Triangle can be formed ");
+    }
+    else{
+        console.log("Triangle cant be formed");
+    }
+}
+
+function triangle_type(){
+    let a=12;
+    let b=12;
+    let c=12;
+
+    if(a+b>c && a+c>b && b+c>c){
+        if(a==b && b==c && a==c){
+            console.log("Equilateral Triangle can be formed");
+        }
+        
+        
+        else if(a!=b && b!=c && a!=c){
+            console.log("scalene triangle can be formed");
+        }else{
+            console.log("isosceles triangle can be formed");
+        }
+
+    }
+    else{
+        console.log("Triangle cant be formed");
+    }
+}
+
+
+function loops(){
+    for(i=0;i<5;i++){
+        console.log(i);
+    }
+
+}
+function sumusingfor(){
+    let ans=0;
+for(let i=1; i<=10; i++){
+    ans +=i;
+}
+console.log(ans);
+}
+
+function whileloops(){
+    let i =1;
+    let ans =0;
+    while(i<=20){
+        ans+=i;
+        i++
+    }
+    console.log(ans);
+}
+
+for(let i=1; i<=25; i++){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+
+
+ 
