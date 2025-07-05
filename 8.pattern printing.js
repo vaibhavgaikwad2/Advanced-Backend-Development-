@@ -20,4 +20,12 @@ function pattern(n){
     }
 }
 
-pattern(6);
+function pattern2(n){
+    for(let r=n; r>=1; r--){
+        let str="";
+        for(let col=row; col>=n; col--){
+            str="*";
+        }
+        console.log(str);
+    }
+}   
