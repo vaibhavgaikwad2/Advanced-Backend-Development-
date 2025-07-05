@@ -170,13 +170,27 @@ function whileloops(){
         i++
     }
     console.log(ans);
-}
-
-for(let i=1; i<=25; i++){
+    for(let i=1; i<=25; i++){
     if(i%2==0){
         console.log(i);
     }
 }
+}
 
 
- 
+
+function isprime(x){
+
+    for(let i=2; i<=x-1; i++){
+        if(x%i==0){
+            return false;
+        }
+        
+        
+    }
+    return true;
+
+}
+
+
+console.log(isprime(4));
