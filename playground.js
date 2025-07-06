@@ -193,4 +193,15 @@ function isprime(x){
 }
 
 
-console.log(isprime(4));
+let a=10;
+
+//y=a++;
+//y=++a;
+
+// console.log(y,a);
+
+let x ="22";
+
+let y = +x;
+
+console.log(typeof y);
