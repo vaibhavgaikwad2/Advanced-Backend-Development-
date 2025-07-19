@@ -52,10 +52,10 @@ function strict(a, a) {  // ← SyntaxError in strict mode
 
 "use strict";
 var myVar = 10;
-delete myVar;  // ← SyntaxError: can't delete variables
+//delete myVar;  // ← SyntaxError: can't delete variables
 
 function myFunc() {}
-delete myFunc;  // ← SyntaxError: can't delete functions
+//delete myFunc;  // ← SyntaxError: can't delete functions
 
 // ═══════════════════════════════════════════════════════════
 // 🔹 PRACTICAL EXAMPLE - BEFORE/AFTER
