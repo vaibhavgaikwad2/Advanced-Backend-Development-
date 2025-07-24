@@ -9,7 +9,7 @@
 // ═══════════════════════════════════════════════════════════
 
 function normalMode() {
-    x = 10;  // ← Creates global variable (BAD!)
+    x = 10;  // ← Creates global variable (BAD!) (auto global variable)
     console.log(x);  // Works, but dangerous
 }
 
